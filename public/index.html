@@ -164,11 +164,15 @@
 	<script >
 
 			$(window).ready( function load() { // document ready or window load
-				console.log('Site Loaded');
-			    //Após a leitura da pagina o evento fadeOut do loader é acionado, esta com delay para ser perceptivo em ambiente fora do servidor.
-			    $(".loader").hide();
+				$(window).on("load",
+					function(){
+						console.log('Site Loaded');
+						// Este evendo é acionado após o carregamento da página	
+
+					    $(".loader").hide();
 			  	
-				// Este evendo é acionado após o carregamento da página	
+					}
+				 );
 			});
 	</script>
 
