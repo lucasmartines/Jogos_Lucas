@@ -77,23 +77,23 @@
 		
 		<h2 class='text-dark title-distance-min font-weight-light font-italic' > FALE CONOSCO </h2>
 		
-		<form>
+		<form action="https://emailmini.herokuapp.com" method="POST">
 			<div class="form-group">
 				
 				<label for="nome"> Email </label>
 				 <br/>
-				<input type='text' class='form-group margin-left-max col-lg-3 col-md-6 col-sm-12' id='nome' placeholder="Enter email"/>
+				<input type='email' class='form-group margin-left-max col-lg-3 col-md-6 col-sm-12' id='descricao' name="descricao"placeholder="Enter email"/>
 			</div>
 			<div class="form-group">
 				
 				<label for="email"> Nome </label>
 				<br/>
-				<input type='email' class='form-group margin-left-max col-lg-3 col-md-6 col-sm-12' id='email' placeholder="Enter email"/>
+				<input type='text' class='form-group margin-left-max col-lg-3 col-md-6 col-sm-12' id='mensageiro' name="mensageiro" placeholder="Enter Name"/>
 			</div>
 			<div class="form-group">
 		    	<label for="message">Assunto</label>
 		    	<br/>
-		    	<textarea class="form-control margin-left-max margin-right-max" id="exampleFormControlTextarea1" rows="3"></textarea>
+		    	<textarea class="form-control margin-left-max margin-right-max" name="mensagem" id="mensagem" rows="3"></textarea>
 		  	</div>
 		  	<div class="d-flex align-items-end flex-column">
 			  	<button type="submit" class="btn btn-primary mb-2 p-2 container-button">Enviar</button>
@@ -153,7 +153,7 @@
 	<p class='cl-red text-center col-md-12 bg-dark-2 credits font-weight-light bg-dark-2'>@ 2018 REDMOON STUDIO All rights reserved created by Lucas Martines</p>
 	<!-- footer -->
 </div><!-- page -->
- -->
+
 
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
