@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #C1C1C1;
+}
+.red-moon-nav{
+	background-color:#EAD44A;
+}
+
+
+.red-moon-hero{/* hero means big image*/
+	background-image: url("/img/hero.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	color:white;
+	display:block;
+}
+.red-moon-hero p,.red-moon-hero button{/* hero means big image*/
+	margin-right:10%;
+}
+.no-padding{
+	padding:0;
+}
+
+.contact-us{
+	background-color:#EEEEEE;
+}
+.distance{
+	margin-bottom:5px;
+}
+
+.title-distance{
+	padding:80px 15%;
+}
+.title-distance-min{
+	padding:40px 15%;
+}
+form{
+	margin-left:15%;
+	margin-right:15%;
+}
+footer{
+	padding:50px 100px;
+}
+.container-button{
+	margin-top: 2%;
+	margin-bottom:10%;
+}
+.line{
+	width:100%;height:4px;
+}
+.bg-yellow-dark{
+	background-color: #CCBC51;
+}
+.cl-red{
+	color:#C80303;
+}
+.bg-red{
+	background-color:#C80303;
+}
+.margin-left-min{
+	margin-left:10px;
+}
+.margin-left-max{
+	margin-left:30px;
+}
+.margin-right-min{
+	margin-right:10px;
+}
+.margin-right-max{
+	margin-right:30px;
+}
+.credits{
+	padding:5px;
+	margin:0;
+}
+.bg-dark-2{
+	background-color: #262626;
+}
+	.red-moon-nav-logo{
+		max-height: 8vh;
+	}
+
+@media (max-width: 576px) {
+	
+	.title-distance{
+		padding:30px 15%;
+
+	}
+	.red-moon-hero button{
+		margin: 20px 20px;
+	}
+	.red-moon-hero p{/* hero means big image*/
+		margin-right:0px;
+		margin-left: 0px;
+	}
+	.title-distance{
+		padding:80px 2%;
+	}
+	.title-distance-min{
+		padding:40px 2%;
+	}
+	.margin-left-min{
+		margin-left:0px;
+	}
+	.margin-left-max{
+		margin-left:0px;
+	}
+	.margin-right-min{
+		margin-right:0px;
+	}
+	.margin-right-max{
+		margin-right:0px;
+	}
+
+}
+
+@media (max-width: 768px) {
+	
+	.title-distance{
+		padding:40px 15%;
+	}
+	.red-moon-hero p,.red-moon-hero button{/* hero means big image*/
+		margin-right:2%;
+		margin-right:2%;
+	}
+	.red-moon-hero button{
+		margin: 20px 90px;
+	}
+
+
+}
+
+@media (min-width: 992px) { 
+	
+}
+
+@media (min-width: 1200px) { 
+
+	*{
+		margin:0;
+		padding:0;
+	}
+
+
+	
+}
