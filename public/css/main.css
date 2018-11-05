@@ -11,7 +11,7 @@ body{
 
 
 .red-moon-hero{/* hero means big image*/
-	background-image: url("/img/hero.png");
+	background-image: url("/img/hero.png"),url("img/hero.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	
