@@ -6,9 +6,21 @@ body{
 	background-color: #C1C1C1;
 }
 .red-moon-nav{
-	background-color:#EAD44A;
+	background-color:#EAD44A;/*yelow red moon*/
 }
-
+.loader
+{
+	width:100%;height:100%;
+	opacity: 50%;
+}
+.load{
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	
+	color:#EAD44A;
+}
 
 .red-moon-hero{/* hero means big image*/
 	background-image: url("/img/hero.png"),url("img/hero.png");
