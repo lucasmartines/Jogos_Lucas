@@ -23,6 +23,7 @@
 	 </div>
 	 <!-- Loading
 	<!-- nav bar -->
+<div class="hide-if-not-loaded">
 	<div class=" container-full red-moon-nav ">
 			
 
@@ -151,7 +152,7 @@
 	</footer>
 	<p class='cl-red text-center col-md-12 bg-dark-2 credits font-weight-light bg-dark-2'>@ 2018 REDMOON STUDIO All rights reserved created by Lucas Martines</p>
 	<!-- footer -->
-
+</div><!-- page -->
  -->
 
 
@@ -164,11 +165,12 @@
 	<script >
 
 			$(window).ready( function load() { // document ready or window load
+				$(".hide-if-not-loaded").hide();
 				$(window).on("load",
 					function(){
 						console.log('Site Loaded');
 						// Este evendo é acionado após o carregamento da página	
-
+						$(".hide-if-not-loaded").show();
 					    $(".loader").hide();
 			  	
 					}
