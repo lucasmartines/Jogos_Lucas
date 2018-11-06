@@ -118,12 +118,29 @@ footer{
 .bg-dark-2{
 	background-color: #262626;
 }
-	.red-moon-nav-logo{
-		max-height: 8vh;
-	}
-
-@media (max-width: 576px) {
+.red-moon-nav-logo{
+	max-height: 8vh;
+}
+.nav-main{
+	display:flex;/*navbar-nav flex-row d-flex flex-wrap  list-unstyled align-content-start  list-unstyled align-content-start justify-content-start*/
+	flex-wrap: wrap;
+	align-items: center;
 	
+}
+@media (max-width: 576px) {
+	.redmoon-game{
+		padding:0;
+		margin:2px;
+	}
+	.p-1{
+		padding:2px !important;
+	}
+	.p-3{
+		padding:3px !important;
+	}
+	.p-3{
+		padding:6px !important;
+	}
 	.title-distance{
 		padding:30px 15%;
 
@@ -153,7 +170,15 @@ footer{
 	.margin-right-max{
 		margin-right:0px;
 	}
-
+	.auto-margin{
+		margin:  auto;
+	}
+	footer{
+		margin: 0;
+		padding: 0;
+		display:flex;
+		flex-wrap: wrap;
+	}
 }
 
 @media (max-width: 768px) {
