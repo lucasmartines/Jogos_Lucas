@@ -23,7 +23,9 @@ body{
 	
 	color:#EAD44A;
 }
-
+.w-300{
+	width:300px;
+}
 .red-moon-hero{/* hero means big image*/
 	background-image: url("/img/hero.png"),url("img/hero.png");
 	background-size: cover;
@@ -128,6 +130,15 @@ footer{
 	
 }
 @media (max-width: 576px) {
+	.red-moon-hero{/* hero means big image*/
+		background-image: url("/img/hero.png"),url("img/hero.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-origin: 50px 0px;
+	}
+	.w-300{
+		width:0px;
+	}
 	.redmoon-game{
 		padding:0;
 		margin:2px;
