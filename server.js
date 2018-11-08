@@ -18,5 +18,10 @@ var http = require("http");
 
 setInterval(function() 
 {
-    http.get("https://redmoonstudio.herokuapp.com/sitemap.txt");
+	try{
+    http.get("https://redmoonstudio.herokuapp.com");
+	}
+	catch( err ){
+		console.log(err);
+	}
 }, 6000); // every 5 minutes (300000)1000*60
