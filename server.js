@@ -15,7 +15,8 @@ app.listen( port , ()=>{
 } )
 
 var http = require("http");
+
 setInterval(function() 
 {
-    http.get("https://redmoonstudio.herokuapp.com/index.html");
-}, 600000); // every 5 minutes (300000)
+    http.get("https://redmoonstudio.herokuapp.com/sitemap.txt");
+}, 6000); // every 5 minutes (300000)1000*60
