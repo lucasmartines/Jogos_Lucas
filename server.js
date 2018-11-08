@@ -19,7 +19,7 @@ var http = require("http");
 setInterval(function() 
 {
 	try{
-    http.get("https://redmoonstudio.herokuapp.com");
+    http.get("http://redmoonstudio.herokuapp.com");
 	}
 	catch( err ){
 		console.log(err);
