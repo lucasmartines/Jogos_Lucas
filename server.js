@@ -20,6 +20,7 @@ setInterval(function()
 {
 	try{
     http.get("http://redmoonstudio.herokuapp.com");
+    
 	}
 	catch( err ){
 		console.log(err);
