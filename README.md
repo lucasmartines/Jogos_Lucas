@@ -1,5 +1,5 @@
 # Site criado para o Red Moon Studio por Lucas Martines.
-Assim pude aprender a criar um site simples.
+Assim pude aprender a criar um site simples utilizando NodeJs, Express.
 Também aprendi:
 <ul>
   <li> bootstrap</li>
